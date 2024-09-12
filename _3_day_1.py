@@ -61,23 +61,23 @@ food = "pizza"
 number = 73
 
 
-# #now include the variables you just made print in the following...
+# # #now include the variables you just made print in the following...
 
 
-print("Once upon a time, there was a " +str(age) + " old coder named " + name + ".")
+# print("Once upon a time, there was a " +str(age) + " old coder named " + name + ".")
 
-print(name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until" + name + "would stop singing.")
+# print(name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until" + name + "would stop singing.")
 
-print("Still, " + name + " was the best coder on the team and could write " + str(number) + "lines of code every day. Maybe " + song + "was " + name + "'s secret power?")
+# print("Still, " + name + " was the best coder on the team and could write " + str(number) + "lines of code every day. Maybe " + song + "was " + name + "'s secret power?")
 
-number1 = 100
-number2 = 200
-number3 = 300
-number4 = 400
-number5 = 500
-# print(number1, number2, number3, number4, number5)
-print(f"{number1}, {number2}, {number3}, {number4}, {number5}")
-##########################################################################################
+# number1 = 100
+# number2 = 200
+# number3 = 300
+# number4 = 400
+# number5 = 500
+# # print(number1, number2, number3, number4, number5)
+# print(f"{number1}, {number2}, {number3}, {number4}, {number5}")
+# ##########################################################################################
 
 
 
@@ -173,22 +173,35 @@ print(f"{number1}, {number2}, {number3}, {number4}, {number5}")
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
 
-##########################################################################################
-# #addition
-# #multiplication
-# #division
-# #modulo
-# #powers
-# #get the max and min of a number
-# #round a number
-# # absolute value
-# # order of operations
-# #to do more you need to import special math libraries from python
-# #from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-# #ceil method
-# #sqrt method
+# ##########################################################################################
+# # #addition
+# print(2+1)
+# # #multiplication
+# print(2*2)
+# # #division
+# print(3/2)
+# # #modulo
+# print(7%4) # remainder of two numbers
+# # #powers
+# print(2**3)
+# # #get the max and min of a number
+# print(max(1,2)) # max number gets the largest number
+# print(min(1,2)) # min number gets the smallest number
+# # #round a number
+# print(round(3.4))
+# # # absolute value #difference of number from 0 # always positive.
+# print(abs(-3))
+# # # order of operations
+# print(2+10*10+3)
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print(floor(3,7)) #rounds down
+# # #ceil method
+# print(ceil(3,7)) #rounds up
+# # #sqrt method
+# print(sqrt(3,7)) #square roots it
 
 
 
@@ -207,15 +220,23 @@ print(f"{number1}, {number2}, {number3}, {number4}, {number5}")
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
 # #how do we get input from users?
-# input("what is your name?")
+name = input("what is your name?")
+print("Hello" + name)
 # # basic math calculator
 # #ask the user for 2 numbers
+num1 = int(input('Enter a number'))
+num2 = int(input("Enter another number"))
 # # print out a statement where you:
 # # add them together
+print(num1 + num2)
 # #multiply
+print(num1 * num2)
 # # find the max number
+print(max(num1,num2))
 # # find the remainder of the numbers
+print(num1%num2)
 # #round one number
+print(round(num1 + num2))
 
 
 
